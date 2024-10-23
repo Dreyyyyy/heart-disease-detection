@@ -131,5 +131,11 @@ dependencies:
   - zlib=1.2.13
   - zstd=1.5.5
   - pip:
+      - cloudpickle==3.1.0
+      - future==1.0.0
+      - hyperopt==0.2.7
+      - networkx==3.4.2
       - nvidia-nccl-cu12==2.23.4
+      - py4j==0.10.9.7
+      - tqdm==4.66.5
       - xgboost==2.1.1
